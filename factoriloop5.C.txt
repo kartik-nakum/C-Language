@@ -1,0 +1,16 @@
+5.	Print the factorial of a given value by the user.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  int i,a,b=1;
+  clrscr();
+  printf("number of=");
+  scanf("%d",&a);
+  for(i=1;i<=a;i++)
+  {
+   b*=i;
+   }
+   printf("\n %d",b);
+  getch();
+}
