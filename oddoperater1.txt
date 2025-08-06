@@ -1,0 +1,14 @@
+1.	Check if a Number is Even or Odd condition opreter
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  int a;
+  clrscr();
+
+  printf("enter value");
+  scanf("%d",&a);
+
+  (a%2==0) ? printf("no is odd") : printf("no is even");
+  getch();
+}
