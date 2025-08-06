@@ -1,0 +1,31 @@
+9.	Grade a Student Based on Marks.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+
+  int mark;
+  clrscr();
+
+  printf("enter number");
+     scanf("%d",&mark);
+
+     if(mark>=90)
+     {
+     printf("gared a");
+     }
+     else if(mark>=80)
+     {
+     printf("gared b");
+     }
+     else if(mark>=70)
+     {
+     printf("grared c");
+     }
+     else if(mark<50)
+     {
+     printf("faile");
+     }
+     getch();
+
+}
