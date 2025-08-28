@@ -1,0 +1,26 @@
+3.	Traffic Light Program.
+#include<stdio.h>
+#include<conio.h>
+void main ()
+{
+  int ch;
+  clrscr();
+  printf("enter your choice g,y,r ");
+  scanf("%d",&ch);
+
+  switch(ch)
+  {
+    case 1:
+       printf("green ");
+       break;
+       case 2:
+       printf("yelloew ");
+       break;
+	case 3:
+       printf("red");
+       break;
+       default:
+       printf("invalid choich");
+       }
+       getch();
+       }

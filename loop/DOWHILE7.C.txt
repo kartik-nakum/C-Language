@@ -1,0 +1,22 @@
+7.	Write a program to calculate the sum of all even numbers from 1 to n using a do-while loop.
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+	int i,n,sum=0;
+	clrscr();
+
+	printf("enter number:");
+	scanf("%d",&n);
+	i=2;
+	do
+	{
+			sum=sum+i;
+
+		i+=2;
+
+	} while(i<=n);
+	printf(" sum of all even number %d ",sum);
+	getch();
+}
